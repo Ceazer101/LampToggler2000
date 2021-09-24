@@ -23,6 +23,7 @@ public class Main {
                     + "\n" + lamp4
                     + "\n" + lamp5);
 
+            System.out.println("Hvilken lampe skal ændres?");
             int toggle = scanner.nextInt();
 
             if (toggle == 1) {
