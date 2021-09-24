@@ -9,7 +9,7 @@ public class Lamp {
 
     public Lamp(String name) {
         this.lampState = false;
-
+        this.name = name;
     }
 
     public Lamp(boolean parameterState) {
@@ -27,9 +27,9 @@ public class Lamp {
 
     public String toString() {
         if (lampState == true) {
-            return "tændt";
+            return name + " er tændt";
         } else {
-            return "slukket";
+            return name + " er slukket";
         }
     }
 

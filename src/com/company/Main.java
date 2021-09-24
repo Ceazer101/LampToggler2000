@@ -17,11 +17,11 @@ public class Main {
         Lamp selectedLamp = null;
 
         while (true) {
-            System.out.println("Lampe 1 er " + lamp1
-                    + "\nLampe 2 er " + lamp2
-                    + "\nLampe 3 er " + lamp3
-                    + "\nLampe 4 er " + lamp4
-                    + "\nLampe 5 er " + lamp5);
+            System.out.println(lamp1
+                    + "\n" + lamp2
+                    + "\n" + lamp3
+                    + "\n" + lamp4
+                    + "\n" + lamp5);
 
             int toggle = scanner.nextInt();
 
